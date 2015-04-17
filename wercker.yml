@@ -1,6 +1,5 @@
 box: wercker/default
 build:
-    steps:
 deploy:
     steps:
         - s3sync:
