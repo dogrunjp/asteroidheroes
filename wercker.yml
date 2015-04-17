@@ -1,9 +1,14 @@
 box: wercker/default
 build:
+  steps:
+    - jshint
+    - script:
+        name: echo
+        code: echo 1
 deploy:
-    steps:
-        - s3sync:
-            key_id: $KEY
-            key_secret: $SECRET
-            bucket_url: $URL
-            source_dir: public
+  steps:
+    - s3sync:
+      key_id: $KEY
+      key_secret: $SECRET
+      bucket_url: $URL
+      source_dir: public
