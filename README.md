@@ -1,2 +1,2 @@
 # asteroidheroes
-## Hi All!
+## Hi All! IF YOU HAVE GITHUB ACCOUNT YOU CAN PUSH FILES TO THIS SERVER
